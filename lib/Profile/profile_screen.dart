@@ -52,6 +52,14 @@ class ProfileScreen extends StatelessWidget {
         ],
       ),
       CounterWidget(),
+        /*   CounterWidget(
+        titleOne: 'Team One',
+        titleTwo: 'Team Two',
+        titleThree: 'Team Three',
+        valueOne: 'New York',
+        valueTHree: 'Canada',
+        valueTwo: 'London',
+      ),*/
     ]));
   }
 }
