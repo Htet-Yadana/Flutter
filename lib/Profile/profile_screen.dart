@@ -1,4 +1,5 @@
 import 'package:first_app/Profile/counter.dart';
+import 'package:first_app/Profile/banner.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -8,7 +9,8 @@ class ProfileScreen extends StatelessWidget {
         body: Stack(children: [
       Column(
         children: [
-          Container(
+          BannerWidget(imgUrl: "assets/img/a.png", title: "Avengers"),
+          /*Container(
             height: 350,
             width: double.infinity,
             color: Colors.black26,
@@ -26,7 +28,7 @@ class ProfileScreen extends StatelessWidget {
                 ),
               ],
             )),
-          ),
+          ),*/
           //CounterWidget(),
           Expanded(
             child: ListView(
