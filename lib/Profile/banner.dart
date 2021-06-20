@@ -6,7 +6,7 @@ class BannerWidget extends StatelessWidget {
   BannerWidget({
     required this.imgUrl,
     required this.title,
-  })
+  });
 
   @override
   Widget build(BuildContext context) {
